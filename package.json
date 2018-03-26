@@ -1,10 +1,11 @@
 {
   "name": "friend.ly",
   "version": "0.1.0",
+  "private": true,
   "description": "Friend.ly Event Planner",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index",
+    "start": "node server/index.js",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js"
   },
