@@ -1,0 +1,11 @@
+node_modules/
+bower_components/
+client/dist/bundle.js
+package-lock.json
+upload
+.env
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
