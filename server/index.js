@@ -17,7 +17,7 @@ app.use(session({
 app.use('/', router);
 app.use('/*', express.static(__dirname + '/../client/dist'));
 
-const port = process.env.PORT || 1337;
+const port = 8081;
 
 app.listen(port, function() {
   console.log('listening on port ', port);
