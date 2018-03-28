@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 const bcrypt = require('bcrypt');
 const Op = Sequelize.Op;
-const sequelize = new Sequelize(process.env.pgDB, process.env.pgresLogin, process.env.pgresPW, {
-	host: process.env.pgHost,
+const sequelize = new Sequelize(process.env.RDS_DB_NAME, process.env.RDS_USERNAME, process.env.RDS_PASSWORD, {
+	host: process.env.RDS_HOSTNAME,
 	dialect: 'postgres',
   pool: {
 		max: 5,
