@@ -55,7 +55,8 @@
     "semantic-ui-react": "0.78.2",
     "sequelize": "4.32.1",
     "sha1": "1.1.1",
-    "web-push": "3.2.5"  
+    "web-push": "3.2.5",
+    "grpc": "1.8.4"  
   },
   "scripts": {
     "prestart": "npm install --production",
