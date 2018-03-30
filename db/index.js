@@ -8,7 +8,9 @@ const sequelize = new Sequelize(process.env.RDS_DB_NAME, process.env.RDS_USERNAM
 		max: 5,
 		min: 0,
 		idle: 20000,
-		acquire: 20000
+		acquire: 20000,
+		evict: 30000,
+		handleDisconnects: true
 	}
 })
 
