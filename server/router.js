@@ -62,7 +62,7 @@ router.post('/subscribeNotifs', (req, res) => {
 })
 
 router.get('/checklogin', util.checkUser, (req, res) => {
-	res.send({"message": "No Session logged"})
+	res.end()
 })
 
 router.post('/logout', util.expireSession, (req, res) => {

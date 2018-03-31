@@ -4,6 +4,8 @@ module.exports = {
 			let userID, username;
 			({userID, username} = req.session)
 			res.status(200).send({userID, username});
+		} else {
+			res.status(200).send({message: "No Sesssion logged"})
 		}
 		next();
 	},
