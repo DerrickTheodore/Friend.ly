@@ -6,7 +6,7 @@ const sequelize = new Sequelize(process.env.RDS_DB_NAME, process.env.RDS_USERNAM
 	dialect: 'postgres',
   pool: {
 		max: 5,
-		min: 0,
+		min: 1,
 		idle: 20000,
 		acquire: 20000,
 		evict: 30000,
