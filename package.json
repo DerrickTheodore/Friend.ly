@@ -57,7 +57,6 @@
     "web-push": "3.2.5"
   },
   "scripts": {
-    "prestart": "npm install --production",
     "start": "node server/index.js",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js"
