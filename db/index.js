@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
 const bcrypt = require('bcrypt');
 const Op = Sequelize.Op;
-console.log('Elastic Beanstalk variable check:', RDS_DB_NAME, ',', RDS_HOSTNAME)
 console.log('Eviroment variable check: ', process.env)
 const sequelize = new Sequelize(process.env.RDS_DB_NAME, process.env.RDS_USERNAME, process.env.RDS_PASSWORD, {
 	host: process.env.RDS_HOSTNAME,
