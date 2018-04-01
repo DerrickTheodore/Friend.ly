@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize');
 const bcrypt = require('bcrypt');
 const Op = Sequelize.Op;
-console.log('ENVIORMENTAL VARIABLE CHECK: ', process.env)
+console.log('ENVIORMENTAL VARIABLE CHECK: ', process.env.RDS_DB_NAME, ' ', process.env.RDS_USERNAME, ' ', process.env.RDS_PASSWORD,
+' ', process.env.RDS_HOSTNAME)
 const sequelize = new Sequelize(process.env.RDS_DB_NAME, process.env.RDS_USERNAME, process.env.RDS_PASSWORD, {
 	host: process.env.RDS_HOSTNAME,
 	dialect: 'postgres',
