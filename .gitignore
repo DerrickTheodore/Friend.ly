@@ -10,4 +10,7 @@ upload
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+.editorconfig
+.gitattributes
+.jshintrc
 
