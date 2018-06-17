@@ -13,7 +13,7 @@
 ![Profile View 01](app_images/Friendly_Desktop(Profile_View_01).jpg)
 ![Profile View 02](app_images/Friendly_Desktop(Profile_View_02).jpg)
 ![Chat View Tablet](app_images/Friendly_Tablet(Chat_View).jpg)
-![Chat View Mobile](app_images/Friendly_Mobile(Chat_View_01).jpg)
+![Chat View Mobile](app_images/Friendly_Mobile(Chat_View).jpg)
 ![Profile View Tablet](app_images/Friendly_Tablet(Profile_View).jpg)
 
 
